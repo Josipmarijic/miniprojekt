@@ -9,6 +9,7 @@ for (let i = 1; i <= 5; i++) {
     ele.style.margin = "10px";
     ele.style.height = `${i*10}px`;
     ele.style.fontSize = `${i*10}px`;
+    ele.style.textAlign = "center";
     list.append(ele);
     
     
